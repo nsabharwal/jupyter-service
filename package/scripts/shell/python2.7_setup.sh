@@ -10,9 +10,9 @@ fi
 
 export PATH=$PATH:/usr/local/bin
 
-tar -xzvf $FILES_DIR/Python-2.7.9.tgz
-echo Installing Python-2.7.9..
-cd Python-2.7.9
+tar -xzvf $FILES_DIR/Python-2.7.10.tgz
+echo Installing Python-2.7.10..
+cd Python-2.7.10
 make altinstall
 python2.7 $FILES_DIR/ez_setup.py
 easy_install pip
